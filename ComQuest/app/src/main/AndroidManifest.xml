@@ -37,13 +37,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".signin.SignUp" />
         </activity>
-<!--        <activity-->
-<!--            android:name=".util.homePage"-->
-<!--            android:parentActivityName=".signin.Login">-->
-<!--            <meta-data-->
-<!--                android:name="android.support.PARENT_ACTIVITY"-->
-<!--                android:value=".signin.Login" />-->
-<!--        </activity>-->
+        <activity
+            android:name=".util.homePage"
+            android:parentActivityName=".signin.Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".signin.Login" />
+        </activity>
         <activity
             android:name=".signin.SignUp"
             android:parentActivityName=".MainActivity">
@@ -52,7 +52,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".util.homePage"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
