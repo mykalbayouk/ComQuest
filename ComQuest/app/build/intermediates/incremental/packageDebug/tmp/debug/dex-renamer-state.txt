@@ -1,15 +1,15 @@
-#Sat Feb 10 12:10:30 EST 2024
-base.0=/Users/michaelbayouk/ComQuest/ComQuest/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/michaelbayouk/ComQuest/ComQuest/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/michaelbayouk/ComQuest/ComQuest/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.3=/Users/michaelbayouk/ComQuest/ComQuest/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
-base.4=/Users/michaelbayouk/ComQuest/ComQuest/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
-base.5=/Users/michaelbayouk/ComQuest/ComQuest/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+#Sat Feb 10 12:30:25 EST 2024
+base.0=C\:\\Users\\jlgre\\AndroidStudioProjects\\ComQuest\\ComQuest\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\jlgre\\AndroidStudioProjects\\ComQuest\\ComQuest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\jlgre\\AndroidStudioProjects\\ComQuest\\ComQuest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.3=C\:\\Users\\jlgre\\AndroidStudioProjects\\ComQuest\\ComQuest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.4=C\:\\Users\\jlgre\\AndroidStudioProjects\\ComQuest\\ComQuest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.5=C\:\\Users\\jlgre\\AndroidStudioProjects\\ComQuest\\ComQuest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=1/classes.dex
-path.3=13/classes.dex
-path.4=15/classes.dex
+path.2=13/classes.dex
+path.3=15/classes.dex
+path.4=1/classes.dex
 path.5=3/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
