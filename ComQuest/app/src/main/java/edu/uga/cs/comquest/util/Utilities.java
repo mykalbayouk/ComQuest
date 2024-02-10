@@ -11,6 +11,12 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class Utilities {
+    /**
+     * Creates a file to be used for the specific context inputted, Must end file name with .txt attribute.
+     * @param filename
+     * @param data
+     * @param context
+     */
     public static void writeToFile(String filename, String data, Context context) {
         try {
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput(filename, Context.MODE_PRIVATE));
@@ -22,6 +28,12 @@ public class Utilities {
         }
     }
 
+    /**
+     * reads file from inputted context and matching name. Must include .txt suffix when using filename string.
+     * @param filename
+     * @param context
+     * @return
+     */
     public static String readFromFile(String filename, Context context) {
 
         String ret = "";
