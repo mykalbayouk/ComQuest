@@ -4,6 +4,7 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id button3
 id button_id
 id text_i
 layout activity_main
