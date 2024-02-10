@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_i"
+        android:id="@+id/final_title_text"
         android:layout_width="276dp"
         android:layout_height="88dp"
         android:text="Community Quest"
@@ -17,14 +17,14 @@
         android:textSize="28sp" />
 
     <Button
-        android:id="@+id/button_id"
+        android:id="@+id/main_sign_up"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:width="40dp"
         android:text="Sign Up" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/main_login"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="Log In" />

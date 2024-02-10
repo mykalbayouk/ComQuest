@@ -28,8 +28,35 @@
         android:testOnly="true"
         android:theme="@style/Theme.ComQuest" >
         <activity
-            android:name="edu.uga.cs.comquest.H_button_signup"
+            android:name="edu.uga.cs.comquest.hero.HQualif"
             android:exported="false" />
+        <activity
+            android:name="edu.uga.cs.comquest.util.afterService"
+            android:exported="false" />
+        <activity
+            android:name="edu.uga.cs.comquest.hero.HeroInfo"
+            android:exported="false" />
+        <activity
+            android:name="edu.uga.cs.comquest.signin.Login"
+            android:parentActivityName="edu.uga.cs.comquest.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="edu.uga.cs.comquest.util.homePage"
+            android:parentActivityName="edu.uga.cs.comquest.signin.Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".signin.Login" />
+        </activity>
+        <activity
+            android:name="edu.uga.cs.comquest.signin.SignUp"
+            android:parentActivityName="edu.uga.cs.comquest.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name="edu.uga.cs.comquest.MainActivity"
             android:exported="true" >
