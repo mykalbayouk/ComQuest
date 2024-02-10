@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         TextView text = findViewById(R.id.text_i);
 
         button_i.setOnClickListener((view) -> {
-            text.setText("poop");
+            text.setText("poops lol");
 
         });
     }
