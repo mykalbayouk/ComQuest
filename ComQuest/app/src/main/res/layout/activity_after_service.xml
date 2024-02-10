@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Tip: " />
+            android:hint="Tip: " />
     </LinearLayout>
 
     <LinearLayout

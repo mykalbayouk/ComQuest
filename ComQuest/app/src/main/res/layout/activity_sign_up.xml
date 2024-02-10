@@ -33,12 +33,12 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/login_username"
+            android:id="@+id/sign_up_username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="Username"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/sign_up_date"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="date"
-            android:text='Date of birth' />
+            android:hint='Date of birth' />
 
         <EditText
             android:id="@+id/sign_up_email"
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="E-Mail" />
+            android:hint="E-Mail" />
 
         <EditText
             android:id="@+id/sign_up_password"
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword"
-            android:text="Password" />
+            android:hint="Password" />
     </LinearLayout>
 
     <Button

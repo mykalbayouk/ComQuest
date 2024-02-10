@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center|top"
     android:orientation="vertical"
-    tools:context=".Login">
+    tools:context=".signin.Login">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/sign_up_button"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0"

@@ -23,13 +23,22 @@
             android:exported="false" />
         <activity
             android:name=".signin.Login"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".util.homePage"
-            android:exported="false" />
+            android:parentActivityName=".signin.Login">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".signin.Login" />
+        </activity>
         <activity
             android:name=".signin.SignUp"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

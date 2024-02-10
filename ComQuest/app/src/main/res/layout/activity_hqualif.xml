@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="What is your ability?" />
+            android:hint="What is your ability?" />
 
         <EditText
             android:id="@+id/hero_qual_quals_et"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="What are your qualifications?" />
+            android:hint="What are your qualifications?" />
 
         <Button
             android:id="@+id/hero_qual_submit"

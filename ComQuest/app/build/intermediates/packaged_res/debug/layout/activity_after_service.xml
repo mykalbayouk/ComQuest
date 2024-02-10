@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".afterService">
+    tools:context=".util.afterService">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/after_hero_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -29,7 +29,7 @@
         android:orientation="horizontal">
 
         <RatingBar
-            android:id="@+id/ratingBar"
+            android:id="@+id/after_rating"
             style="@android:style/Widget.DeviceDefault.RatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/finalText"
+            android:id="@+id/final_after_issues"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Were there any issues with your hero?" />
@@ -56,20 +56,19 @@
         android:layout_height="58dp"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button4"
+        <Switch
+            android:id="@+id/after_bad_job"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Failed Job" />
+            android:text="Bad Job" />
 
-        <Button
-            android:id="@+id/button5"
+        <Switch
+            android:id="@+id/after_bad_atti"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Bad Attitude" />
-
+            android:text="Switch" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,12 +77,12 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/after_tip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Tip: " />
+            android:hint="Tip: " />
     </LinearLayout>
 
     <LinearLayout
@@ -92,7 +91,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/after_confirm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
