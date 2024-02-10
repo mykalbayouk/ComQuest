@@ -64,14 +64,14 @@
 39-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:24:9-29:20
 40            android:name="edu.uga.cs.comquest.signin.Login"
 40-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:25:13-41
-41            android:parentActivityName="edu.uga.cs.comquest.MainActivity" >
-41-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:26:13-55
+41            android:parentActivityName="edu.uga.cs.comquest.signin.SignUp" >
+41-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:26:13-56
 42            <meta-data
-42-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:45
+42-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:46
 43                android:name="android.support.PARENT_ACTIVITY"
 43-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:20-66
-44                android:value=".MainActivity" />
-44-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-42
+44                android:value=".signin.SignUp" />
+44-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-43
 45        </activity>
 46        <activity
 46-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:30:9-35:20
@@ -80,11 +80,11 @@
 48            android:parentActivityName="edu.uga.cs.comquest.signin.Login" >
 48-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:32:13-55
 49            <meta-data
-49-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:45
+49-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:46
 50                android:name="android.support.PARENT_ACTIVITY"
 50-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:20-66
 51                android:value=".signin.Login" />
-51-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-42
+51-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-43
 52        </activity>
 53        <activity
 53-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:36:9-41:20
@@ -93,11 +93,11 @@
 55            android:parentActivityName="edu.uga.cs.comquest.MainActivity" >
 55-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:38:13-55
 56            <meta-data
-56-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:45
+56-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:46
 57                android:name="android.support.PARENT_ACTIVITY"
 57-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:20-66
 58                android:value=".MainActivity" />
-58-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-42
+58-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-43
 59        </activity>
 60        <activity
 60-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:42:9-50:20

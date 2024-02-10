@@ -38,10 +38,10 @@
             android:exported="false" />
         <activity
             android:name="edu.uga.cs.comquest.signin.Login"
-            android:parentActivityName="edu.uga.cs.comquest.MainActivity" >
+            android:parentActivityName="edu.uga.cs.comquest.signin.SignUp" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".signin.SignUp" />
         </activity>
         <activity
             android:name="edu.uga.cs.comquest.util.homePage"
