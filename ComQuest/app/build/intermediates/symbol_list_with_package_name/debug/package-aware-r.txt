@@ -3242,8 +3242,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editTextText
-id editTextText2
 id edit_query
 id elastic
 id embed
@@ -3259,6 +3257,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id final_sign_up
 id fitCenter
 id fitEnd
 id fitStart
@@ -3280,9 +3279,12 @@ id group_divider
 id grouping
 id groups
 id header_title
+id helpInput
+id heroButton
 id hideable
 id home
 id homeAsUp
+id homeEnterButton
 id honorRequest
 id horizontal_only
 id icon
@@ -3466,6 +3468,10 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sign_up_button
+id sign_up_date
+id sign_up_email
+id sign_up_name
 id sin
 id skipCollapsed
 id skipped
@@ -3519,6 +3525,12 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView4
+id textView5
+id textView6
+id textView7
 id text_i
 id text_input_end_icon
 id text_input_error_icon
@@ -3682,8 +3694,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_hbutton_signup
+layout activity_hero_info
+layout activity_home_page
+layout activity_login
 layout activity_main
+layout activity_sign_up
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
