@@ -1,4 +1,4 @@
-package edu.uga.cs.comquest.util;
+package edu.uga.cs.comquest.hero;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import edu.uga.cs.comquest.R;
+import edu.uga.cs.comquest.civilian.CivilianList;
 import edu.uga.cs.comquest.signin.Login;
 
 public class heroCheckout extends AppCompatActivity {

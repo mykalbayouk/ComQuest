@@ -43,7 +43,7 @@ public class HeroList extends AppCompatActivity {
         jobCards.setClickable(true);
 
         jobCards.setOnClickListener((view) -> {
-            Intent intent = new Intent(getApplicationContext(), HeroInfo.class);
+            Intent intent = new Intent(getApplicationContext(), heroCheckout.class);
             intent.putExtra("Name", jobName);
             intent.putExtra("Attri", neededAbilities);
             startActivity(intent);

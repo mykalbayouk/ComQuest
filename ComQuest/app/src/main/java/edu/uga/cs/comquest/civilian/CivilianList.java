@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 import edu.uga.cs.comquest.R;
 import edu.uga.cs.comquest.hero.HeroInfo;
+import edu.uga.cs.comquest.hero.heroCheckout;
 import edu.uga.cs.comquest.util.Utilities;
 
 public class CivilianList extends AppCompatActivity {
@@ -57,7 +58,7 @@ public class CivilianList extends AppCompatActivity {
         heroCards.setClickable(true);
 
         heroCards.setOnClickListener((view) -> {
-            Intent intent = new Intent(getApplicationContext(), HeroInfo.class);
+            Intent intent = new Intent(getApplicationContext(), heroCheckout.class);
             intent.putExtra("Name", name);
             intent.putExtra("Attri", attributes);
             startActivity(intent);
