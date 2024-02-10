@@ -13,9 +13,6 @@
         android:theme="@style/Theme.ComQuest"
         tools:targetApi="31">
         <activity
-            android:name=".JobInfo"
-            android:exported="false" />
-        <activity
             android:name=".hero.HQualif"
             android:exported="false" />
         <activity
@@ -26,24 +23,21 @@
             android:exported="false" />
         <activity
             android:name=".signin.Login"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+            android:parentActivityName=".signin.SignUp">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".signin.SignUp" />
         </activity>
         <activity
             android:name=".util.homePage"
             android:parentActivityName=".signin.Login">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".signin.Login" />
         </activity>
         <activity
             android:name=".signin.SignUp"
             android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"

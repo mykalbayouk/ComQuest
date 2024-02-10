@@ -9,177 +9,177 @@
 9        android:targetSdkVersion="34" />
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\jlgre\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] /Users/michaelbayouk/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 12        android:name="edu.uga.cs.comquest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\jlgre\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] /Users/michaelbayouk/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\jlgre\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] /Users/michaelbayouk/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="edu.uga.cs.comquest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\jlgre\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\jlgre\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] /Users/michaelbayouk/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/michaelbayouk/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:5:5-51:19
+17-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:5:5-51:19
 18        android:allowBackup="true"
-18-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:6:9-35
+18-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\jlgre\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] /Users/michaelbayouk/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:7:9-65
+20-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:8:9-54
+23-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:9:9-43
+24-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:10:9-41
+25-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:10:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:11:9-54
+26-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:12:9-35
+27-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.ComQuest" >
-29-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:13:9-46
+29-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:13:9-46
 30        <activity
-30-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:15:9-17:40
+30-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:15:9-17:40
 31            android:name="edu.uga.cs.comquest.hero.HQualif"
-31-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:16:13-41
+31-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:16:13-41
 32            android:exported="false" />
-32-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:17:13-37
+32-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:17:13-37
 33        <activity
-33-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:18:9-20:40
+33-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:18:9-20:40
 34            android:name="edu.uga.cs.comquest.util.afterService"
-34-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:19:13-46
+34-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:19:13-46
 35            android:exported="false" />
-35-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:20:13-37
+35-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:20:13-37
 36        <activity
-36-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:21:9-23:40
+36-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:21:9-23:40
 37            android:name="edu.uga.cs.comquest.hero.HeroInfo"
-37-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:22:13-42
+37-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:22:13-42
 38            android:exported="false" />
-38-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:23:13-37
+38-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:23:13-37
 39        <activity
-39-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:24:9-29:20
+39-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:24:9-29:20
 40            android:name="edu.uga.cs.comquest.signin.Login"
-40-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:25:13-41
-41            android:parentActivityName="edu.uga.cs.comquest.MainActivity" >
-41-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:26:13-55
+40-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:25:13-41
+41            android:parentActivityName="edu.uga.cs.comquest.signin.SignUp" >
+41-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:26:13-56
 42            <meta-data
-42-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:27:9-28:45
+42-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:46
 43                android:name="android.support.PARENT_ACTIVITY"
-43-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:27:20-66
-44                android:value=".MainActivity" />
-44-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:28:13-42
+43-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:20-66
+44                android:value=".signin.SignUp" />
+44-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-43
 45        </activity>
 46        <activity
-46-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:30:9-35:20
+46-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:30:9-35:20
 47            android:name="edu.uga.cs.comquest.util.homePage"
-47-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:31:13-42
+47-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:31:13-42
 48            android:parentActivityName="edu.uga.cs.comquest.signin.Login" >
-48-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:32:13-55
+48-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:32:13-55
 49            <meta-data
-49-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:27:9-28:45
+49-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:46
 50                android:name="android.support.PARENT_ACTIVITY"
-50-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:27:20-66
+50-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:20-66
 51                android:value=".signin.Login" />
-51-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:28:13-42
+51-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-43
 52        </activity>
 53        <activity
-53-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:36:9-41:20
+53-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:36:9-41:20
 54            android:name="edu.uga.cs.comquest.signin.SignUp"
-54-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:37:13-42
+54-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:37:13-42
 55            android:parentActivityName="edu.uga.cs.comquest.MainActivity" >
-55-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:38:13-55
+55-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:38:13-55
 56            <meta-data
-56-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:27:9-28:45
+56-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-28:46
 57                android:name="android.support.PARENT_ACTIVITY"
-57-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:27:20-66
+57-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:20-66
 58                android:value=".MainActivity" />
-58-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:28:13-42
+58-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-43
 59        </activity>
 60        <activity
-60-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:42:9-50:20
+60-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:42:9-50:20
 61            android:name="edu.uga.cs.comquest.MainActivity"
-61-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:43:13-41
+61-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:43:13-41
 62            android:exported="true" >
-62-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:44:13-36
+62-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:44:13-36
 63            <intent-filter>
-63-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:45:13-49:29
+63-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:45:13-49:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:46:17-69
-64-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:46:25-66
+64-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:46:17-69
+64-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:46:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:48:17-77
-66-->C:\Users\jlgre\AndroidStudioProjects\ComQuest\ComQuest\app\src\main\AndroidManifest.xml:48:27-74
+66-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:48:17-77
+66-->/Users/michaelbayouk/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:48:27-74
 67            </intent-filter>
 68        </activity>
 69
 70        <provider
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jlgre\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelbayouk/.gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 71            android:name="androidx.startup.InitializationProvider"
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jlgre\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelbayouk/.gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 72            android:authorities="edu.uga.cs.comquest.androidx-startup"
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jlgre\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelbayouk/.gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 73            android:exported="false" >
-73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jlgre\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelbayouk/.gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 74            <meta-data
-74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jlgre\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelbayouk/.gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jlgre\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelbayouk/.gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 76                android:value="androidx.startup" />
-76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jlgre\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelbayouk/.gradle/caches/transforms-3/70145bbbde0c2efc56f871bf5a5b1060/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 77            <meta-data
-77-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jlgre\.gradle\caches\transforms-3\8c09915ed6a0dc01715a9483156714de\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+77-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/michaelbayouk/.gradle/caches/transforms-3/8c09915ed6a0dc01715a9483156714de/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-78-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jlgre\.gradle\caches\transforms-3\8c09915ed6a0dc01715a9483156714de\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+78-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/michaelbayouk/.gradle/caches/transforms-3/8c09915ed6a0dc01715a9483156714de/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
 79                android:value="androidx.startup" />
-79-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jlgre\.gradle\caches\transforms-3\8c09915ed6a0dc01715a9483156714de\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+79-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/michaelbayouk/.gradle/caches/transforms-3/8c09915ed6a0dc01715a9483156714de/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 80            <meta-data
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 82                android:value="androidx.startup" />
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 83        </provider>
 84
 85        <receiver
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 87            android:directBootAware="false"
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 88            android:enabled="true"
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 89            android:exported="true"
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 90            android:permission="android.permission.DUMP" >
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 91            <intent-filter>
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 93            </intent-filter>
 94            <intent-filter>
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 96            </intent-filter>
 97            <intent-filter>
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 99            </intent-filter>
 100            <intent-filter>
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jlgre\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/michaelbayouk/.gradle/caches/transforms-3/0e99719c1721f1142b26db9093362a76/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
 102            </intent-filter>
 103        </receiver>
 104    </application>

@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="date"
-            android:hint='Date of birth' />
+            android:hint='Birthday (MM-DD-YEAR)' />
 
         <EditText
             android:id="@+id/sign_up_email"
