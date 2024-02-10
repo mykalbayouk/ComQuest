@@ -13,14 +13,13 @@
         android:theme="@style/Theme.ComQuest"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
- h-signup
             android:name=".HQualif"
-
+            android:exported="false" />
+        <activity
             android:name=".afterService"
-=======
+            android:exported="false" />
+        <activity
             android:name=".HeroInfo"
->>>>>>> heroinfo
             android:exported="false" />
         <activity
             android:name=".Login"
