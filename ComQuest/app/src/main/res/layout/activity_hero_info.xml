@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".HeroInfo">
+    tools:context=".hero.HeroInfo">
 
     <TextView
         android:id="@+id/textView4"
@@ -14,7 +14,7 @@
         android:text="Put picture here (fill in with dummy info)" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/after_hero_name"
         android:layout_width="match_parent"
         android:layout_height="99dp"
         android:text="Put name here (fill in with dummy info)" />

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HQualif">
+    tools:context=".hero.HQualif">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/hero_qual_ability_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -20,7 +20,7 @@
             android:text="What is your ability?" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/hero_qual_quals_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -28,7 +28,7 @@
             android:text="What are your qualifications?" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/hero_qual_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit" />
