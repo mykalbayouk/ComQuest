@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:1-38:12
 MERGED from [com.google.android.material:material:1.11.0] /Users/ashiqsyed/.gradle/caches/transforms-3/99dc24b8086e9e02f60cbc0643cdc897/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ashiqsyed/.gradle/caches/transforms-3/1f371f754bd6786f9a76f8e2fd18482b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/ashiqsyed/.gradle/caches/transforms-3/dd8395924473b069ee7a6f1edc69d57d/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/ashiqsyed
 	xmlns:android
 		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:5:5-24:19
-INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:5:5-36:19
+INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:5:5-36:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/ashiqsyed/.gradle/caches/transforms-3/99dc24b8086e9e02f60cbc0643cdc897/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/ashiqsyed/.gradle/caches/transforms-3/99dc24b8086e9e02f60cbc0643cdc897/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ashiqsyed/.gradle/caches/transforms-3/1f371f754bd6786f9a76f8e2fd18482b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -96,22 +96,46 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ashiqsyed/.gradle/ca
 		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:13:9-46
 	android:dataExtractionRules
 		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:7:9-65
-activity#edu.uga.cs.comquest.MainActivity
-ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:15:9-23:20
+activity#edu.uga.cs.comquest.HeroInfo
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:16:13-37
+activity#edu.uga.cs.comquest.Login
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:19:13-34
+activity#edu.uga.cs.comquest.homePage
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:22:13-37
+activity#edu.uga.cs.comquest.SignUp
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:25:13-35
+activity#edu.uga.cs.comquest.MainActivity
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:exported
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ashiqsyed/Coding/ugahacks/ComQuest/ComQuest/app/src/main/AndroidManifest.xml

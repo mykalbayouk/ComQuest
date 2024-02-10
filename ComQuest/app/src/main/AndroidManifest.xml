@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ComQuest"
         tools:targetApi="31">
         <activity
+            android:name=".HeroInfo"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity

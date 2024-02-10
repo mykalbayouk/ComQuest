@@ -28,7 +28,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.ComQuest" >
         <activity
-            android:name="edu.uga.cs.comquest.H_button_signup"
+            android:name="edu.uga.cs.comquest.HeroInfo"
+            android:exported="false" />
+        <activity
+            android:name="edu.uga.cs.comquest.Login"
+            android:exported="false" />
+        <activity
+            android:name="edu.uga.cs.comquest.homePage"
+            android:exported="false" />
+        <activity
+            android:name="edu.uga.cs.comquest.SignUp"
             android:exported="false" />
         <activity
             android:name="edu.uga.cs.comquest.MainActivity"
