@@ -14,13 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button_i = findViewById(R.id.button_id);
-        TextView text = findViewById(R.id.text_i);
-
-        button_i.setOnClickListener((view) -> {
-            text.setText("poops lol");
-
-        });
+        TextView title = findViewById(R.id.text_i);
+        Button signUp = findViewById(R.id.button_id);
+        Button login = findViewById(R.id.button_id);
     }
 }
 
