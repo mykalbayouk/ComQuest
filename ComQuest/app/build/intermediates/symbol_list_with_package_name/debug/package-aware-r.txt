@@ -3242,6 +3242,8 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextText
+id editTextText2
 id edit_query
 id elastic
 id embed
@@ -3680,6 +3682,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_hbutton_signup
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

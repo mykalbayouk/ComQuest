@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ComQuest" >
         <activity
+            android:name="edu.uga.cs.comquest.H_button_signup"
+            android:exported="false" />
+        <activity
             android:name="edu.uga.cs.comquest.MainActivity"
             android:exported="true" >
             <intent-filter>
