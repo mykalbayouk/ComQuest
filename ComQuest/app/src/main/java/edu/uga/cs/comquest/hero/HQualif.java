@@ -18,7 +18,7 @@ public class HQualif extends AppCompatActivity {
         Button submit = findViewById(R.id.hero_qual_submit);
 
         submit.setOnClickListener((view) -> {
-            Intent intent = new Intent(view.getContext(), heroCheckout.class);
+            Intent intent = new Intent(view.getContext(), HeroList.class);
             startActivity(intent);
         });
     }
