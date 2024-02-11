@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
     tools:context=".hero.heroCheckout">
 
     <LinearLayout
@@ -13,32 +14,31 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextText2"
+        <TextView
+            android:id="@+id/info_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
             android:text="Bob"
             android:textAlignment="center"
             android:textColor="#673AB7"
-            android:textSize="24sp"
+            android:textSize="48sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/editTextText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
             android:text="Qualifications"
             android:textColor="#673AB7"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
 
-        <androidx.recyclerview.widget.RecyclerView
+        <TextView
+            android:id="@+id/check_attri"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:itemCount="10" />
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#6B6666"
+            android:textSize="24sp" />
 
     </LinearLayout>
 
@@ -50,16 +50,16 @@
 
         <Button
             android:id="@+id/coButton"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Request Help!" />
 
         <Button
             android:id="@+id/ntButton"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="No Thanks"
-            android:textColor="#000000"
+            android:textColor="#CAC6C6"
             app:iconTint="#FFFFFF" />
     </LinearLayout>
 

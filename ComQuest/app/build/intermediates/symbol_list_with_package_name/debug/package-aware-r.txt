@@ -3260,13 +3260,13 @@ id center_vertical
 id chain
 id chain2
 id chains
+id check_attri
 id checkbox
 id checked
 id chronometer
 id circle_center
 id civ_linear_layout
 id clear_text
-id clientName
 id clip_horizontal
 id clip_vertical
 id clockwise
@@ -3324,7 +3324,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editTextText2
 id editTextText3
 id edit_query
 id elastic
@@ -3386,10 +3385,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
 id info
+id info_title
 id invisible
 id inward
 id italic
@@ -3523,7 +3524,6 @@ id path
 id pathRelative
 id peekHeight
 id percent
-id phoneText
 id pin
 id position
 id postLayout
@@ -3548,6 +3548,10 @@ id save_overlay_view
 id sawtooth
 id scale
 id screen
+id screen_client
+id screen_comp
+id screen_email
+id screen_home
 id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -3639,9 +3643,6 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView4
-id textView6
-id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3810,7 +3811,6 @@ layout activity_after_service
 layout activity_civilian_list
 layout activity_final_screen
 layout activity_hero_checkout
-layout activity_hero_info
 layout activity_hero_list
 layout activity_home_page
 layout activity_hqualif

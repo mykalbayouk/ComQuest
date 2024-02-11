@@ -12,7 +12,9 @@ import org.w3c.dom.Text;
 
 import edu.uga.cs.comquest.R;
 import edu.uga.cs.comquest.civilian.CivilianList;
+import edu.uga.cs.comquest.finalScreen;
 import edu.uga.cs.comquest.signin.Login;
+import edu.uga.cs.comquest.util.Utilities;
 
 public class heroCheckout extends AppCompatActivity {
 
@@ -40,8 +42,9 @@ public class heroCheckout extends AppCompatActivity {
                 heroCheckout.setText("Offer Help!");
                 heroReject.setText("Keep Scouting!");
                 heroCheckout.setOnClickListener((view) -> {
-                    Intent confirm_intent = new Intent(this, HeroList.class);
-                    confirm_intent.putExtra("Pending", true);
+                    Intent confirm_intent = new Intent(this, finalScreen.class);
+                    confirm_intent.putExtra("Name", title_inte);
+                    confirm_intent.putExtra("EMAIL", Utilities.readFromFile("users.txt", getApplicationContext()).split("#SPACE")[0].split("#GAP#")[1]);
                     startActivity(confirm_intent);
                 });
                 heroReject.setOnClickListener((view) -> {

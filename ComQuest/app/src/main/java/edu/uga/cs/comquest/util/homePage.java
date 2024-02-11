@@ -13,6 +13,7 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 
 import edu.uga.cs.comquest.R;
+import edu.uga.cs.comquest.civilian.CivilianList;
 import edu.uga.cs.comquest.hero.HQualif;
 import edu.uga.cs.comquest.hero.HeroList;
 import edu.uga.cs.comquest.signin.SignUp;
@@ -52,7 +53,7 @@ public class homePage extends AppCompatActivity {
                             String questData = "Car#GAP#"+ car_spinner.getSelectedItem().toString();
                             questData = questData + "#NEWQUEST#";
                             Utilities.writeToFile("civil.txt", questData, getApplicationContext());
-                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            Intent intent = new Intent(getApplicationContext(), CivilianList.class);
                             startActivity(intent);
                         });
                         break;
@@ -66,7 +67,7 @@ public class homePage extends AppCompatActivity {
                             String questData = "House#GAP#"+ house_spinner.getSelectedItem().toString();
                             questData = questData + "#NEWQUEST#";
                             Utilities.writeToFile("civil.txt", questData, getApplicationContext());
-                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            Intent intent = new Intent(getApplicationContext(), CivilianList.class);
                             startActivity(intent);
                         });
                         break;
@@ -80,7 +81,7 @@ public class homePage extends AppCompatActivity {
                             String questData = "Yard#GAP#"+ yard_spinner.getSelectedItem().toString();
                             questData = questData + "#NEWQUEST#";
                             Utilities.writeToFile("civil.txt", questData, getApplicationContext());
-                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            Intent intent = new Intent(getApplicationContext(), CivilianList.class);
                             startActivity(intent);
                         });
                         break;
@@ -94,7 +95,7 @@ public class homePage extends AppCompatActivity {
                             String questData = "Computer#GAP#"+ comp_spinner.getSelectedItem().toString();
                             questData = questData + "#NEWQUEST#";
                             Utilities.writeToFile("civil.txt", questData, getApplicationContext());
-                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            Intent intent = new Intent(getApplicationContext(), CivilianList.class);
                             startActivity(intent);
                         });
                         break;

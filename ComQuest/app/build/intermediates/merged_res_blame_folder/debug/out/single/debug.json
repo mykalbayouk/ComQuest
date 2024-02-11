@@ -84,10 +84,6 @@
         "source": "edu.uga.cs.comquest.app-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_hero_info.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_hero_info.xml"
-    },
-    {
         "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_home_page.xml.flat",
         "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_home_page.xml"
     },

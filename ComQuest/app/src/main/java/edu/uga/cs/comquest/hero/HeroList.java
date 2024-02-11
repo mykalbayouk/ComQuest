@@ -23,21 +23,15 @@ public class HeroList extends AppCompatActivity {
 
         String civ_task = Utilities.readFromFile("civil.txt", getApplicationContext());
         String[] civ_task_list = civ_task.split("#NEWQUEST#");
-        Intent intent = getIntent();
-        if (intent.getBooleanExtra("Pending", false)){
-            String[] civ_one = civ_task_list[0].split("#GAP#");
-            createCard(civ_one[0], civ_one[1], "3", true);
-            createCard("Engine Fix", "10 year old engine", "5", false);
-        } else {
-            for (int i = 0; i < civ_task_list.length; i++) {
-                String[] civ_one = civ_task_list[i].split("#GAP#");
-                createCard(civ_one[0], civ_one[1], "3", false);
-            }
-
-            createCard("Engine Fix", "10 year old engine", "5", false);
-
-
+        for (int i = 0; i < civ_task_list.length; i++) {
+            String[] civ_one = civ_task_list[i].split("#GAP#");
+            createCard(civ_one[0], civ_one[1], "3", false);
         }
+
+            createCard("Engine Fix", "10 year old engine", "5", false);
+
+
+
 
     }
 
