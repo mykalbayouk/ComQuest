@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import edu.uga.cs.comquest.R;
-import edu.uga.cs.comquest.hero.HQualif;
 
 public class afterService extends AppCompatActivity {
 

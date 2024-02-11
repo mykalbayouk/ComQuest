@@ -5,18 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import edu.uga.cs.comquest.R;
 import edu.uga.cs.comquest.civilian.CivilianList;
-import edu.uga.cs.comquest.hero.HQualif;
-import edu.uga.cs.comquest.hero.HeroList;
-import edu.uga.cs.comquest.signin.SignUp;
+import edu.uga.cs.comquest.hero.HeroHomePage;
 
 public class homePage extends AppCompatActivity {
 
@@ -27,7 +21,7 @@ public class homePage extends AppCompatActivity {
 
         Button hero_but = findViewById(R.id.home_hero);
         hero_but.setOnClickListener((view) -> {
-            Intent intent = new Intent(view.getContext(), HQualif.class);
+            Intent intent = new Intent(view.getContext(), HeroHomePage.class);
             startActivity(intent);
         });
 

@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComQuest"
         tools:targetApi="31">
-<!--        <activity-->
-<!--            android:name=".HeroHomePage"-->
-<!--            android:exported="false" />-->
         <activity
             android:name=".finalScreen"
             android:exported="false" />
@@ -28,13 +25,10 @@
             android:name=".civilian.CivilianList"
             android:exported="false" />
         <activity
-            android:name=".hero.HQualif"
+            android:name=".hero.HeroHomePage"
             android:exported="false" />
         <activity
             android:name=".util.afterService"
-            android:exported="false" />
-        <activity
-            android:name=".hero.HeroInfo"
             android:exported="false" />
         <activity
             android:name=".signin.Login"
@@ -58,7 +52,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".HeroHomePage"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import edu.uga.cs.comquest.R;
 import edu.uga.cs.comquest.hero.heroCheckout;
+import edu.uga.cs.comquest.util.Utilities;
 
 public class CivilianList extends AppCompatActivity {
 
@@ -21,28 +22,31 @@ public class CivilianList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_civilian_list);
 
-        //String heroes_string = Utilities.readFromFile("heroes.txt", getApplicationContext());
-        //String[] heroes_list = heroes_string.split("#NEWHERO#");
+        String username = Utilities.readFromFile("users.txt", getApplicationContext());
+        String[] temp = username.split("#SPACE#");
+        String user = temp[0].split("#GAP#")[0].replaceAll("\n", "");
+        String heroes_string = Utilities.readFromFile("heroes.txt", getApplicationContext());
+        String[] heroes_list = heroes_string.split("#NEWHERO#");
 
 
         Intent intent = getIntent();
         if (intent.getBooleanExtra("Status", false)){
-            //String[] hero_one = heroes_list[0].split("#GAP#");
-            //createCard(hero_one[0], hero_one[1], "3", true);
-            createCard("Janice", "Fixing cleaning", "5", true);
+            String[] hero_one = heroes_list[0].split("#GAP#");
+            createCard(user, hero_one[0], hero_one[1], "3", true);
+            createCard("Janice\n", "Houses","A/C Repair, Cleaning", "5", false);
         } else {
-//            for (int i = 0; i < civ_task_list.length; i++) {
-//                String[] civ_one = civ_task_list[i].split("#GAP#");
-//                createCard(civ_one[0], civ_one[1], "3", false);
-//            }
+            for (int i = 0; i < heroes_list.length; i++) {
+                String[] civ_one = heroes_list[i].split("#GAP#");
+                createCard(user, civ_one[0], civ_one[1], "3", false);
+            }
 
-            createCard("Janice", "Fixing cleaning", "5", false);
+            createCard("Janice\n", "Houses","A/C Repair, Cleaning", "5", false);
 
 
         }
     }
 
-    private void createCard(String name, String attributes, String location, Boolean status) {
+    private void createCard(String name, String main_ar, String attributes, String location, Boolean status) {
         CardView heroCards = new CardView(getApplicationContext());
         LinearLayout linearLayout = findViewById(R.id.civ_linear_layout);
 
@@ -74,10 +78,17 @@ public class CivilianList extends AppCompatActivity {
         v_box.setPadding(25,25, 25, 25);
         v_box.setOrientation(LinearLayout.VERTICAL);
 
+
+
         TextView hero_title = new TextView(this);
         hero_title.setGravity(Gravity.LEFT);
         hero_title.setText(name);
         hero_title.setTextSize(25);
+
+        TextView main_attr = new TextView(this);
+        main_attr.setGravity(Gravity.LEFT);
+        main_attr.setText(main_ar);
+        main_attr.setTextSize(20);
 
         TextView attribute = new TextView(this);
         attribute.setGravity(Gravity.LEFT);
@@ -91,6 +102,7 @@ public class CivilianList extends AppCompatActivity {
         location_tv.setTextSize(17);
 
         v_box.addView(hero_title);
+        v_box.addView(main_attr);
         v_box.addView(attribute);
         v_box.addView(location_tv);
         heroCards.addView(v_box);

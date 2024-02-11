@@ -1,7 +1,8 @@
-package edu.uga.cs.comquest;
+package edu.uga.cs.comquest.hero;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,6 +10,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.CheckBox;
 import java.util.ArrayList;
+
+import edu.uga.cs.comquest.R;
+import edu.uga.cs.comquest.civilian.CivilianList;
+import edu.uga.cs.comquest.util.Utilities;
 
 public class HeroHomePage extends AppCompatActivity {
 
@@ -101,7 +106,7 @@ public class HeroHomePage extends AppCompatActivity {
                carACHeat.setVisibility(View.VISIBLE);
                carEngine.setVisibility(View.VISIBLE);
 
-               specialty[0] = "car";
+               specialty[0] = "Car";
            } else {
                //enable other buttons, reset value
                houseCheck.setEnabled(true);
@@ -128,7 +133,7 @@ public class HeroHomePage extends AppCompatActivity {
                 houseClean.setVisibility(View.VISIBLE);
                 housePets.setVisibility(View.VISIBLE);
                 houseACHeat.setVisibility(View.VISIBLE);
-                specialty[0] = "house";
+                specialty[0] = "House";
             } else {
                 //enable other buttons, reset value
                 carCheck.setEnabled(true);
@@ -153,7 +158,7 @@ public class HeroHomePage extends AppCompatActivity {
                computerRepair.setVisibility(View.VISIBLE);
                computerBuild.setVisibility(View.VISIBLE);
                computerInstall.setVisibility(View.VISIBLE);
-               specialty[0] = "computer";
+               specialty[0] = "Computer";
            } else {
                //enable other buttons, reset value
                carCheck.setEnabled(true);
@@ -178,7 +183,7 @@ public class HeroHomePage extends AppCompatActivity {
                 yardGarden.setVisibility(View.VISIBLE);
                 yardMow.setVisibility(View.VISIBLE);
                 yardWash.setVisibility(View.VISIBLE);
-                specialty[0] = "yard";
+                specialty[0] = "Yard";
             } else {
 
                 //enable other buttons, reset value
@@ -196,7 +201,7 @@ public class HeroHomePage extends AppCompatActivity {
         ArrayList<String> heroProfile = new ArrayList<String>();
         complete.setOnClickListener((view) -> {
             //car
-            if (specialty[0].compareTo("car") == 0) {
+            if (specialty[0].compareTo("Car") == 0) {
                 if (carEngine.isChecked()) {
                     carSpecifics.add(carEngine.getText().toString());
                 }
@@ -216,7 +221,7 @@ public class HeroHomePage extends AppCompatActivity {
                     } else {
                         if (i != carSpecifics.size()) {
                             heroProfile.add(carSpecifics.get(i - 1));
-                            heroProfile.add("#GAP#");
+                            heroProfile.add(", ");
                         } else {
                             heroProfile.add(carSpecifics.get(i - 1));
                         }
@@ -224,7 +229,7 @@ public class HeroHomePage extends AppCompatActivity {
                 }
             }
             //house
-            if (specialty[0].compareTo("house") == 0) {
+            if (specialty[0].compareTo("House") == 0) {
                 if (houseClean.isChecked()) {
                     houseSpecifics.add(houseClean.getText().toString());
                 }
@@ -245,7 +250,7 @@ public class HeroHomePage extends AppCompatActivity {
 
                         if (i != houseSpecifics.size()) {
                             heroProfile.add(houseSpecifics.get(i - 1));
-                            heroProfile.add("#GAP#");
+                            heroProfile.add(", ");
                         } else {
                             heroProfile.add(houseSpecifics.get(i - 1));
 
@@ -255,7 +260,7 @@ public class HeroHomePage extends AppCompatActivity {
                 }
             }
             //computer
-            if (specialty[0].compareTo("computer") == 0) {
+            if (specialty[0].compareTo("Computer") == 0) {
                 if (computerInstall.isChecked()) {
                     computerSpecifics.add(computerInstall.getText().toString());
                 }
@@ -272,7 +277,7 @@ public class HeroHomePage extends AppCompatActivity {
                     } else {
                         if (i != computerSpecifics.size()) {
                             heroProfile.add(computerSpecifics.get(i - 1));
-                            heroProfile.add("#GAP#");
+                            heroProfile.add(", ");
                         } else {
                             heroProfile.add(computerSpecifics.get(i - 1));
                         }
@@ -281,7 +286,7 @@ public class HeroHomePage extends AppCompatActivity {
                 }
             }
             //yard
-            if (specialty[0].compareTo("yard") == 0) {
+            if (specialty[0].compareTo("Yard") == 0) {
                 if (yardMow.isChecked()) {
                     yardSpecifics.add(yardMow.getText().toString());
                 }
@@ -299,7 +304,7 @@ public class HeroHomePage extends AppCompatActivity {
 
                         if (i != yardSpecifics.size()) {
                             heroProfile.add(yardSpecifics.get(i - 1));
-                            heroProfile.add("#GAP#");
+                            heroProfile.add(", ");
                         } else {
                             heroProfile.add(yardSpecifics.get(i - 1));
                         }
@@ -311,8 +316,10 @@ public class HeroHomePage extends AppCompatActivity {
             for (int i = 0; i < heroProfile.size(); i++) {
                 profileString += heroProfile.get(i);
             }
-            TextView test = findViewById(R.id.test);
-            test.setText(profileString);
+            Utilities.writeToFile("heroes.txt", profileString, getApplicationContext());
+            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+            startActivity(intent);
+
         });
 
     }

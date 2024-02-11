@@ -8,11 +8,13 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import edu.uga.cs.comquest.R;
 import edu.uga.cs.comquest.util.Utilities;
+import edu.uga.cs.comquest.util.homePage;
 
 public class HeroList extends AppCompatActivity {
 
@@ -20,6 +22,7 @@ public class HeroList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hero_list);
+        Button home = findViewById(R.id.hero_list_button);
 
         String civ_task = Utilities.readFromFile("civil.txt", getApplicationContext());
         String[] civ_task_list = civ_task.split("#NEWQUEST#");
@@ -27,12 +30,12 @@ public class HeroList extends AppCompatActivity {
             String[] civ_one = civ_task_list[i].split("#GAP#");
             createCard(civ_one[0], civ_one[1], "3", false);
         }
+        createCard("Engine Fix", "10 year old engine", "5", false);
 
-            createCard("Engine Fix", "10 year old engine", "5", false);
-
-
-
-
+        home.setOnClickListener((view) -> {
+            Intent intent = new Intent(getApplicationContext(), homePage.class);
+            startActivity(intent);
+        });
     }
 
     private void createCard(String jobName, String neededAbilities, String location, Boolean pending) {
