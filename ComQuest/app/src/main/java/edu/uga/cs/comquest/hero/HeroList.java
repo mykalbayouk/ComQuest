@@ -24,7 +24,7 @@ public class HeroList extends AppCompatActivity {
         setContentView(R.layout.activity_hero_list);
         Button home = findViewById(R.id.hero_list_button);
 
-        String civ_task = Utilities.readFromFile("civil.txt", getApplicationContext());
+        String civ_task = Utilities.readFromFile("heroes.txt", getApplicationContext());
         String[] civ_task_list = civ_task.split("#NEWQUEST#");
         for (int i = 0; i < civ_task_list.length; i++) {
             String[] civ_one = civ_task_list[i].split("#GAP#");

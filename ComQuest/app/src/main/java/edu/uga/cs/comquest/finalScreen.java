@@ -32,6 +32,7 @@ public class finalScreen extends AppCompatActivity {
         });
         comp.setOnClickListener((view) -> {
             Intent to_home = new Intent(getApplicationContext(), afterService.class);
+            to_home.putExtra("Name", intent.getStringExtra("Name"));
             startActivity(to_home);
         });
 
