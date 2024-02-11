@@ -70,6 +70,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Complete" />
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:text="Quest Complete" />
     </LinearLayout>
 </LinearLayout>
