@@ -8,12 +8,14 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import edu.uga.cs.comquest.R;
 import edu.uga.cs.comquest.hero.heroCheckout;
 import edu.uga.cs.comquest.util.Utilities;
+import edu.uga.cs.comquest.util.homePage;
 
 public class CivilianList extends AppCompatActivity {
 
@@ -22,11 +24,13 @@ public class CivilianList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_civilian_list);
 
+        Button home = findViewById(R.id.civ_list_button);
+
         String username = Utilities.readFromFile("users.txt", getApplicationContext());
         String[] temp = username.split("#SPACE#");
         String user = temp[0].split("#GAP#")[0].replaceAll("\n", "");
-        String heroes_string = Utilities.readFromFile("heroes.txt", getApplicationContext());
-        String[] heroes_list = heroes_string.split("#NEWHERO#");
+        String heroes_string = Utilities.readFromFile("civil.txt", getApplicationContext());
+        String[] heroes_list = heroes_string.split("#NEWQUEST#");
 
 
         Intent intent = getIntent();
@@ -43,7 +47,12 @@ public class CivilianList extends AppCompatActivity {
             createCard("Janice\n", "Houses","A/C Repair, Cleaning", "5", false);
 
 
+
         }
+        home.setOnClickListener((view) -> {
+            Intent bein = new Intent(getApplicationContext(), homePage.class);
+            startActivity(bein);
+        });
     }
 
     private void createCard(String name, String main_ar, String attributes, String location, Boolean status) {

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="15dp"
     android:orientation="vertical"
     tools:context=".util.homePage">
 
@@ -18,10 +19,12 @@
             android:layout_width="wrap_content"
             android:layout_height="78dp"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:scaleX="2.5"
             android:scaleY="2.5"
-            android:text="Community Quest" />
+            android:text="Home Page"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -39,7 +42,9 @@
             android:gravity="center_horizontal"
             android:scaleX="1.5"
             android:scaleY="1.5"
-            android:text="What do you need help with? " />
+            android:text="What do you need help with? "
+            android:textAllCaps="false"
+            android:textStyle="italic" />
 
     </LinearLayout>
 
@@ -47,13 +52,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center|left"
         android:orientation="horizontal">
 
         <Spinner
             android:id="@+id/spinner2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:entries="@array/issue"
             android:spinnerMode="dropdown" />
 
@@ -63,14 +69,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/refButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Refresh Options" />
+            android:layout_weight="0"
+            android:text="More Options" />
     </LinearLayout>
 
     <LinearLayout
@@ -81,10 +88,11 @@
 
         <Spinner
             android:id="@+id/spinner3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:entries="@array/blank"/>
+            android:layout_weight="0"
+            android:entries="@array/blank"
+            android:visibility="visible" />
 
         <Spinner
             android:id="@+id/spinner4"
@@ -123,14 +131,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/home_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Submit" />
+            android:layout_weight="0"
+            android:text="Submit"
+            android:visibility="visible" />
 
     </LinearLayout>
 
@@ -147,10 +157,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:gravity="center_horizontal|center_vertical"
-            android:insetLeft="0dp"
-            android:insetRight="0dp"
-            android:text="H" />
+            android:backgroundTint="#8BC34A"
+            android:text="Heroes" />
     </LinearLayout>
 
 </LinearLayout>
