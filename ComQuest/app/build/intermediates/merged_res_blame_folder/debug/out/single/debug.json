@@ -1,114 +1,122 @@
 [
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_hqualif.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_hqualif.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_hero_list.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_hero_list.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_job_info.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_job_info.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_hero_list.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_hero_list.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_login.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_login.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_final_screen.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_final_screen.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_civilian_list.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_civilian_list.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/drawable/ic_launcher_foreground.xml"
     },
     {
         "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_main.xml.flat",
         "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_civilian_list.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_civilian_list.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_sign_up.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/drawable_map.png.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/drawable/map.png"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_sign_up.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_sign_up.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/drawable_map.png.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/drawable/map.png"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_final_screen.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_final_screen.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_login.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_login.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_hero_checkout.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_hero_checkout.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/xml_backup_rules.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/xml/backup_rules.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_home_page.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_home_page.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_hero_checkout.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_hero_checkout.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_home_page.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_home_page.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/xml/data_extraction_rules.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_after_service.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_after_service.xml"
     },
     {
-        "merged": "edu.uga.cs.comquest.app-merged_res-34:/layout_activity_after_service.xml.flat",
-        "source": "edu.uga.cs.comquest.app-main-36:/layout/activity_after_service.xml"
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_hqualif.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_hqualif.xml"
+    },
+    {
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/drawable_comquest_logo.png.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/drawable/comquest_logo.png"
+    },
+    {
+        "merged": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-merged_res-34:/layout_activity_job_info.xml.flat",
+        "source": "/Users/michaelbayouk/.gradle/daemon/8.2/edu.uga.cs.comquest.app-main-36:/layout/activity_job_info.xml"
     }
 ]

@@ -3043,6 +3043,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable comquest_logo
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3344,7 +3345,6 @@ id final__home_comquest
 id final_after_issues
 id final_home_need_help
 id final_login
-id final_title_text
 id fitCenter
 id fitEnd
 id fitStart
@@ -3386,6 +3386,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate

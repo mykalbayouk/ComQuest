@@ -8,6 +8,7 @@ array issue
 array yard
 color black
 color white
+drawable comquest_logo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable map
@@ -27,7 +28,6 @@ id final__home_comquest
 id final_after_issues
 id final_home_need_help
 id final_login
-id final_title_text
 id hero_lin_lay
 id hero_qual_ability_et
 id hero_qual_quals_et
@@ -35,6 +35,7 @@ id hero_qual_submit
 id home_hero
 id home_submit
 id imageView
+id imageView2
 id info_title
 id linearLayout2
 id login_button
