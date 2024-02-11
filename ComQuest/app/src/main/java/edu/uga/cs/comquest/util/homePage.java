@@ -14,6 +14,7 @@ import org.w3c.dom.Text;
 
 import edu.uga.cs.comquest.R;
 import edu.uga.cs.comquest.hero.HQualif;
+import edu.uga.cs.comquest.hero.HeroList;
 import edu.uga.cs.comquest.signin.SignUp;
 
 public class homePage extends AppCompatActivity {
@@ -23,7 +24,6 @@ public class homePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
-
         Button hero_but = findViewById(R.id.home_hero);
         hero_but.setOnClickListener((view) -> {
             Intent intent = new Intent(view.getContext(), HQualif.class);
@@ -31,6 +31,7 @@ public class homePage extends AppCompatActivity {
         });
 
         Button ref_button = findViewById(R.id.refButton);
+        Button submit_button = findViewById(R.id.home_submit);
         Spinner first_spinner = findViewById(R.id.spinner2);
         Spinner blank_spinner = findViewById(R.id.spinner3);
         Spinner car_spinner = findViewById(R.id.spinner4);
@@ -47,6 +48,13 @@ public class homePage extends AppCompatActivity {
                         house_spinner.setVisibility(View.GONE);
                         yard_spinner.setVisibility(View.GONE);
                         comp_spinner.setVisibility(View.GONE);
+                        submit_button.setOnClickListener((view1) -> {
+                            String questData = "Car#GAP#"+ car_spinner.getSelectedItem().toString();
+                            questData = questData + "#NEWQUEST#";
+                            Utilities.writeToFile("civil.txt", questData, getApplicationContext());
+                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            startActivity(intent);
+                        });
                         break;
                     case "House":
                         blank_spinner.setVisibility(View.GONE);
@@ -54,6 +62,13 @@ public class homePage extends AppCompatActivity {
                         house_spinner.setVisibility(View.VISIBLE);
                         yard_spinner.setVisibility(View.GONE);
                         comp_spinner.setVisibility(View.GONE);
+                        submit_button.setOnClickListener((view1) -> {
+                            String questData = "House#GAP#"+ house_spinner.getSelectedItem().toString();
+                            questData = questData + "#NEWQUEST#";
+                            Utilities.writeToFile("civil.txt", questData, getApplicationContext());
+                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            startActivity(intent);
+                        });
                         break;
                     case "Yard":
                         blank_spinner.setVisibility(View.GONE);
@@ -61,6 +76,13 @@ public class homePage extends AppCompatActivity {
                         house_spinner.setVisibility(View.GONE);
                         yard_spinner.setVisibility(View.VISIBLE);
                         comp_spinner.setVisibility(View.GONE);
+                        submit_button.setOnClickListener((view1) -> {
+                            String questData = "Yard#GAP#"+ yard_spinner.getSelectedItem().toString();
+                            questData = questData + "#NEWQUEST#";
+                            Utilities.writeToFile("civil.txt", questData, getApplicationContext());
+                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            startActivity(intent);
+                        });
                         break;
                     case "Computer":
                         blank_spinner.setVisibility(View.GONE);
@@ -68,10 +90,19 @@ public class homePage extends AppCompatActivity {
                         house_spinner.setVisibility(View.GONE);
                         yard_spinner.setVisibility(View.GONE);
                         comp_spinner.setVisibility(View.VISIBLE);
+                        submit_button.setOnClickListener((view1) -> {
+                            String questData = "Computer#GAP#"+ comp_spinner.getSelectedItem().toString();
+                            questData = questData + "#NEWQUEST#";
+                            Utilities.writeToFile("civil.txt", questData, getApplicationContext());
+                            Intent intent = new Intent(getApplicationContext(), HeroList.class);
+                            startActivity(intent);
+                        });
                         break;
                 }
 
+
         });
+
     }
 
 

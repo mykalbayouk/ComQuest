@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import edu.uga.cs.comquest.R;
+import edu.uga.cs.comquest.util.Utilities;
 
 public class HeroList extends AppCompatActivity {
 
@@ -20,12 +21,27 @@ public class HeroList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hero_list);
 
-        createCard("Engine Fix", "10 year old engine", "5");
+        String civ_task = Utilities.readFromFile("civil.txt", getApplicationContext());
+        String[] civ_task_list = civ_task.split("#NEWQUEST#");
+        Intent intent = getIntent();
+        if (intent.getBooleanExtra("Pending", false)){
+            String[] civ_one = civ_task_list[0].split("#GAP#");
+            createCard(civ_one[0], civ_one[1], "3", true);
+            createCard("Engine Fix", "10 year old engine", "5", false);
+        } else {
+            for (int i = 0; i < civ_task_list.length; i++) {
+                String[] civ_one = civ_task_list[i].split("#GAP#");
+                createCard(civ_one[0], civ_one[1], "3", false);
+            }
 
+            createCard("Engine Fix", "10 year old engine", "5", false);
+
+
+        }
 
     }
 
-    private void createCard(String jobName, String neededAbilities, String location) {
+    private void createCard(String jobName, String neededAbilities, String location, Boolean pending) {
         CardView jobCards = new CardView(getApplicationContext());
         LinearLayout linearLayout = findViewById(R.id.hero_lin_lay);
 
@@ -41,13 +57,11 @@ public class HeroList extends AppCompatActivity {
         jobCards.setMaxCardElevation(30);
         jobCards.setMaxCardElevation(6);
         jobCards.setClickable(true);
+        if (pending) {
+            jobCards.setCardBackgroundColor(Color.rgb(181, 240, 93));
+        }
 
-        jobCards.setOnClickListener((view) -> {
-            Intent intent = new Intent(getApplicationContext(), heroCheckout.class);
-            intent.putExtra("Name", jobName);
-            intent.putExtra("Attri", neededAbilities);
-            startActivity(intent);
-        });
+
 
         LinearLayout v_box = new LinearLayout(this);
         v_box.setPadding(25,25, 25, 25);
@@ -74,6 +88,15 @@ public class HeroList extends AppCompatActivity {
         v_box.addView(needAbils);
         v_box.addView(location_tv);
         jobCards.addView(v_box);
+
+        jobCards.setOnClickListener((view) -> {
+            linearLayout.removeAllViews();
+            Intent intent = new Intent(getApplicationContext(), heroCheckout.class);
+            intent.putExtra("Name", jobName);
+            intent.putExtra("Attri", neededAbilities);
+            intent.putExtra("Class", 'h');
+            startActivity(intent);
+        });
 
         linearLayout.addView(jobCards);
     }

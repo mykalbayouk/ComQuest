@@ -3,27 +3,16 @@ package edu.uga.cs.comquest.civilian;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.media.Image;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.GridLayout;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import edu.uga.cs.comquest.R;
-import edu.uga.cs.comquest.hero.HeroInfo;
 import edu.uga.cs.comquest.hero.heroCheckout;
-import edu.uga.cs.comquest.util.Utilities;
 
 public class CivilianList extends AppCompatActivity {
 
@@ -35,12 +24,25 @@ public class CivilianList extends AppCompatActivity {
         //String heroes_string = Utilities.readFromFile("heroes.txt", getApplicationContext());
         //String[] heroes_list = heroes_string.split("#NEWHERO#");
 
-        createCard("Janice", "Fixing cleaning", "5");
+
+        Intent intent = getIntent();
+        if (intent.getBooleanExtra("Status", false)){
+            //String[] hero_one = heroes_list[0].split("#GAP#");
+            //createCard(hero_one[0], hero_one[1], "3", true);
+            createCard("Janice", "Fixing cleaning", "5", true);
+        } else {
+//            for (int i = 0; i < civ_task_list.length; i++) {
+//                String[] civ_one = civ_task_list[i].split("#GAP#");
+//                createCard(civ_one[0], civ_one[1], "3", false);
+//            }
+
+            createCard("Janice", "Fixing cleaning", "5", false);
 
 
+        }
     }
 
-    private void createCard(String name, String attributes, String location) {
+    private void createCard(String name, String attributes, String location, Boolean status) {
         CardView heroCards = new CardView(getApplicationContext());
         LinearLayout linearLayout = findViewById(R.id.civ_linear_layout);
 
@@ -56,11 +58,15 @@ public class CivilianList extends AppCompatActivity {
         heroCards.setMaxCardElevation(30);
         heroCards.setMaxCardElevation(6);
         heroCards.setClickable(true);
+        if (status) {
+            heroCards.setCardBackgroundColor(Color.rgb(181, 240, 93));
+        }
 
         heroCards.setOnClickListener((view) -> {
             Intent intent = new Intent(getApplicationContext(), heroCheckout.class);
             intent.putExtra("Name", name);
             intent.putExtra("Attri", attributes);
+            intent.putExtra("Class", 'c');
             startActivity(intent);
         });
 
@@ -83,7 +89,6 @@ public class CivilianList extends AppCompatActivity {
         location_tv.setGravity(Gravity.RIGHT);
         location_tv.setText(location + " Km");
         location_tv.setTextSize(17);
-
 
         v_box.addView(hero_title);
         v_box.addView(attribute);
