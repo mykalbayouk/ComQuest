@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import edu.uga.cs.comquest.util.afterService;
 import edu.uga.cs.comquest.util.homePage;
 
 public class finalScreen extends AppCompatActivity {
@@ -30,7 +31,7 @@ public class finalScreen extends AppCompatActivity {
             startActivity(to_home);
         });
         comp.setOnClickListener((view) -> {
-            Intent to_home = new Intent(getApplicationContext(), homePage.class);
+            Intent to_home = new Intent(getApplicationContext(), afterService.class);
             startActivity(to_home);
         });
 
