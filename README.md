@@ -13,3 +13,9 @@ We are very proud of the speed in which we built the project it took us about 14
 We learned a lot about mobile app development and also got very comfortable with using GitHub push and pull requests.
 ## What's next for CommunityQuest
 Our project's next step would be to get a proper database set up to keep user's information.
+
+## Youtube Demo
+https://youtu.be/hW9cFWwkxss
+
+## DevPost
+https://devpost.com/software/communityquest
