@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blank">
+        <item>Issue: </item>
+    </string-array>
+    <string-array name="car">
+        <item>Issue: </item>
+        <item>Engine</item>
+        <item>AC/Heat</item>
+        <item>Oil</item>
+        <item>Wash</item>
+    </string-array>
+    <string-array name="computer">
+        <item>Issue: </item>
+        <item>Repair PC</item>
+        <item>Build PC</item>
+        <item>Install Parts</item>
+    </string-array>
+    <string-array name="house">
+        <item>Issue: </item>
+        <item>Pets</item>
+        <item>AC/Heat</item>
+        <item>Clean</item>
+        <item>Appliances</item>
+    </string-array>
+    <string-array name="issue">
+        <item>Pick a category: </item>
+        <item>Car</item>
+        <item>House</item>
+        <item>Yard</item>
+        <item>Computer</item>
+    </string-array>
+    <string-array name="yard">
+        <item>Issue: </item>
+        <item>Mow Lawn</item>
+        <item>Power Wash</item>
+        <item>Garden</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ComQuest</string>
+    <style name="Base.Theme.ComQuest" parent="Theme.Material3.DayNight">
+        
+        
+    </style>
+    <style name="Theme.ComQuest" parent="Base.Theme.ComQuest"/>
+</resources>
